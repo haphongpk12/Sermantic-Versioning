@@ -136,7 +136,7 @@ def main():
     """
     version_after_convert = convert_string_to_version_component_numbers("1.2.3")
     compare_this_other = compare_versions((4, 2, 1), (2, 3, 4))
-    version = Version(1, 3, 0)
+    version = Version(1, 3)
     print(version_after_convert)
     print(version.final_tup)
     print(Version("1.2.8") < Version("2.4.5"))
