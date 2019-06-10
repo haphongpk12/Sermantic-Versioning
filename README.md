@@ -84,7 +84,7 @@ The class `Version` has 3 [instances variables](https://docs.python.org/3/tutori
 (2, 0, 0)
 >>> version = Version(1, 4)
 >>> (version.major, version.minor, version.patch)
-(1, 4, 0)
+(1, 4, 0
 >>> version = Version((10, 3, 284))
 >>> (version.major, version.minor, version.patch)
 (10, 3, 284)
